@@ -11,6 +11,23 @@
 </head>
 
 <body>
+    <div class="container">
+        <div>
+            <div class="container-header">
+                <p> All Issue Book</p>
+            </div>
+        </div>
+        <table class="content-table">
+            <thead>
+                <tr>
+                    <th>Issue Name</th>
+                    <th>Book Name</th>
+                    <th>Issue Date</th>
+                    <th>Returned Date</th>
+                </tr>
+            </thead>
+        </table>
+
     <div class="container" id="top">
         <aside class="sidebar-wrapper">
             <div class="sidebar-header">
@@ -25,31 +42,31 @@
                     <li>
                         <a href="#">
                             <i class="fas fa-home"></i>
-                            <div class="title">dashboard</div>
+                            <div class="title">Dashboard</div>
                         </a>
                     </li>
                     <li>
                         <a href="#">
                             <i class="fas fa-users"></i>
-                            <div class="title">customers</div>
+                            <div class="title">Book Issue</div>
                         </a>
                     </li>
                     <li>
                         <a href="#">
                             <i class="fas fa-tasks"></i>
-                            <div class="title">projects</div>
+                            <div class="title">Manage Books</div>
                         </a>
                     </li>
                     <li>
                         <a href="#">
                             <i class="fas fa-shopping-bag"></i>
-                            <div class="title">orders</div>
+                            <div class="title">Books Returned</div>
                         </a>
                     </li>
                     <li>
                         <a href="#">
                             <i class="far fa-user-circle"></i>
-                            <div class="title">accounts</div>
+                            <div class="title">Account</div>
                         </a>
                     </li>
                     <li>
@@ -67,304 +84,32 @@
                 </ul>
             </nav>
         </aside>
-        <main class="content">
-            <header>
-                <div class="header-wrapper">
-                    <div class="header-left">
-                        <div class="toggle-icon">
-                            <i class="fas fa-bars"></i>
-                        </div>
-                        <i class="fas fa-search"></i>
-                        <input type="text" placeholder="Search...">
-                    </div>
-                    <div class="header-right">
-                        <div class="star-container">
-                            <div class="star-left">
-                                <i class="far fa-star"></i>
-                                <span>star</span>
-                            </div>
-                            <div class="star-right">
-                                327
-                            </div>
-                        </div>
-                        <img src="profile2.png" alt="avatar">
-                    </div>
-                </div>
-            </header>
-            <section class="main">
-                <div class="box box-1">
-                    <div class="box-left">
-                        <h4>congratulations Christian!</h4>
-                        <p>You have done 72% more visitors today. Checkyour new badge in your profile.</p>
-                        <a href="#">view badges</a>
-                    </div>
-                    <div class="box-right">
-                        <img src="profile.png" alt="profile">
-                    </div>
-                </div>
-                <div class="box box-2">
-                    <div class="box-details">
-                        <h4>54</h4>
-                        <span>customers</span>
-                    </div>
-                    <div class="box-icon">
-                        <i class="fas fa-users"></i>
-                    </div>
-                </div>
-                <div class="box box-3">
-                    <div class="box-details">
-                        <h4>79</h4>
-                        <span>projects</span>
-                    </div>
-                    <div class="box-icon">
-                        <i class="fas fa-tasks"></i>
-                    </div>
-                </div>
-                <div class="box box-4">
-                    <div class="box-details">
-                        <h4>124</h4>
-                        <span>orders</span>
-                    </div>
-                    <div class="box-icon">
-                        <i class="fas fa-shopping-bag"></i>
-                    </div>
-                </div>
-                <div class="box box-5">
-                    <div class="box-details">
-                        <h4>₱6k</h4>
-                        <span>income</span>
-                    </div>
-                    <div class="box-icon">
-                        <i class="fas fa-wallet"></i>
-                    </div>
-                </div>
-                <div class="box box-6">
-                    <div class="box-header">
-                        <a href="#">customers project used</a>
-                    </div>
-                    <div class="box-body">
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>Book</th>
-                                    <th>Book id</th>
-                                    <th>status</th>
-                                    <th>Book Number</th>
-                                    <th>date used</th>
-                                    <th>date restored</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                        <div class="progress">
-                                            <div class="progress-bar bar-3" style="width: 70%;"></div>
-                                        </div>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-                <div class="box box-7">
-                    <div class="box-header">
-                        <h4>new library visitors</h4>
-                        <a href="#">see all</a>
-                    </div>
-                    <div class="box-container">
-                        <div class="customer">
-                            <img src="earl.jpg" alt="avatar">
-                            <div class="info">
-                                <h5>Earl Cortez</h5>
-                            </div>
-                            <div class="contacts">
-                                <i class="fas fa-user-circle"></i>
-                                <i class="far fa-comment-alt"></i>
-                                <i class="fas fa-phone-alt"></i>
-                            </div>
-                        </div>
-                        <div class="customer">
-                            <img src="clarence.jpg" alt="avatar">
-                            <div class="info">
-                                <h5>Clarence James Valle</h5>
-                            </div>
-                            <div class="contacts">
-                                <i class="fas fa-user-circle"></i>
-                                <i class="far fa-comment-alt"></i>
-                                <i class="fas fa-phone-alt"></i>
-                            </div>
-                        </div>
-                        <div class="customer">
-                            <img src="cris.jpg" alt="avatar">
-                            <div class="info">
-                                <h5>Cris Oliva</h5>
-                            </div>
-                            <div class="contacts">
-                                <i class="fas fa-user-circle"></i>
-                                <i class="far fa-comment-alt"></i>
-                                <i class="fas fa-phone-alt"></i>
-                            </div>
-                        </div>
-                        <div class="customer">
-                            <img src="germain.jpg" alt="avatar">
-                            <div class="info">
-                                <h5>Germain Grande</h5>
-                            </div>
-                            <div class="contacts">
-                                <i class="fas fa-user-circle"></i>
-                                <i class="far fa-comment-alt"></i>
-                                <i class="fas fa-phone-alt"></i>
-                            </div>
-                        </div>
-                        <div class="customer">
-                            <img src="jinard.jpg" alt="avatar">
-                            <div class="info">
-                                <h5>Jinard Recana</h5>
-                            </div>
-                            <div class="contacts">
-                                <i class="fas fa-user-circle"></i>
-                                <i class="far fa-comment-alt"></i>
-                                <i class="fas fa-phone-alt"></i>
-                            </div>
-                        </div>
-                        <div class="customer">
-                            <img src="joshua.jpg" alt="avatar">
-                            <div class="info">
-                                <h5>Joshua Catolico</h5>
-                            </div>
-                            <div class="contacts">
-                                <i class="fas fa-user-circle"></i>
-                                <i class="far fa-comment-alt"></i>
-                                <i class="fas fa-phone-alt"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="box box-8">
-                    <div class="box-left">
-                        <h4>profile report</h4>
-                        <span class="year">year 2024</span>
-                        <span class="percentage">^68.2%</span>
-                        <h3>₱84,686K</h3>
-                    </div>
-                    <div class="box-right">
-                        <i class="fas fa-chart-line"></i>
-                    </div>
-                </div>
-                <div class="box box-9">
-                    <div class="box-header">
-                        <h4>Total of used books</h4>
-                    </div>
-                    <div class="circle">
-                        <div class="inner-circle">Weekly</div>
-                    </div>
-                    <div class="box-bottom">
-                        <div class="list">
-                            <span>completed</span>
-                            <span>25</span>
-                        </div>
-                        <div class="list">
-                            <span>pending</span>
-                            <span>10</span>
-                        </div>
-                        <div class="list">
-                            <span>process</span>
-                            <span>65</span>
-                        </div>
-                        <div class="list">
-                            <span>failled</span>
-                            <span>5</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="box box-10">
-                    <div class="box-header">
-                        <h4>last projects</h4>
-                    </div>
-                    <div class="box-body">
-                        <div class="project">
-                            <div class="project-left">
-                                <h5>god of wrath 1</h5>
-                                <span>department 1</span>
-                            </div>
-                            <div class="project-right">
-                                <i class="far fa-eye"></i>
-                            </div>
-                        </div>
-                        <div class="project">
-                            <div class="project-left">
-                                <h5>god of pain 2</h5>
-                                <span>department 2</span>
-                            </div>
-                            <div class="project-right">
-                                <i class="far fa-eye"></i>
-                            </div>
-                        </div>
-                        <div class="project">
-                            <div class="project-left">
-                                <h5>God of malice 3</h5>
-                                <span>department 3</span>
-                            </div>
-                            <div class="project-right">
-                                <i class="far fa-eye"></i>
-                            </div>
-                        </div>
-                        <div class="project">
-                            <div class="project-left">
-                                <h5>God of ruin 4</h5>
-                                <span>department 4</span>
-                            </div>
-                            <div class="project-right">
-                                <i class="far fa-eye"></i>
-                            </div>
-                        </div>
-                        <div class="project">
-                            <div class="project-left">
-                                <h5>god of war 5</h5>
-                                <span>department 5</span>
-                            </div>
-                            <div class="project-right">
-                                <i class="far fa-eye"></i>
-                            </div>
-                        </div>
-                        <div class="project">
-                            <div class="project-left">
-                                <h5>god of rocks 6</h5>
-                                <span>department 6</span>
-                            </div>
-                            <div class="project-right">
-                                <i class="far fa-eye"></i>
-                            </div>
-                        </div>
-                        <div class="project">
-                            <div class="project-left">
-                                <h5>god of flames 7</h5>
-                                <span>department 7</span>
-                            </div>
-                            <div class="project-right">
-                                <i class="far fa-eye"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <footer>
-                <div class="copyright">
-                    copyright &copy; 2024. BSIT 2D REDBOYS.
-                </div>
-            </footer>
-        </main>
     </div>
-    <div class="switcher-container">
-        <div class="switcher-icon">
-            <i class="fas fa-cog"></i>
-        </div>
-        <div class="switcher-close">
-            <i class="fas fa-times"></i>
-        </div>
-        <div class="switcher-header">
-            <h3>theme customizer</h3>
-            <h4>theme styles</h4>
-        </div>
-        <div class="switcher-body">
+    <table class="content-table">
+        <thead>
+            <tr>
+                <th>Issue Name</th>
+                <th>Book Name</th>
+                <th>Issue Date</th>
+                <th>Returned Date</th>
+            </tr>
+        </thead>
+    </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             <ul>
                 <li class="active" data-color="#f7f7f7"></li>
                 <li data-color="#212529"></li>

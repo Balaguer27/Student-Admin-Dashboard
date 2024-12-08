@@ -294,6 +294,11 @@
 }
 
 /*Recent Activities*/
+.content-mid {
+  boder: 2px solid;
+  border-radius: 20px
+}
+  
 .top-books-container {
   flex-direction: grid;
   position: absolute;
